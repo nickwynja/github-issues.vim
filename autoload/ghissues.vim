@@ -696,7 +696,7 @@ def showIssue(number=False, repourl=False):
     b.append("")
 
   vim.command("nnoremap <buffer> <silent> q :q<CR>")
-  vim.command("set ft=gfimarkdown")
+  vim.command("set ft=markdown")
   vim.command("normal ggdd")
 
   highlightColoredLabels(getLabels())
